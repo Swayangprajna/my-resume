@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function Rsidemenu() {
   function addActive() {
@@ -51,7 +50,7 @@ export default function Rsidemenu() {
                   <i className="las la-shapes"></i> <span>Skills</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   className="scroll-to"
                   href="#portfolio"
@@ -60,7 +59,7 @@ export default function Rsidemenu() {
                   <i className="las la-grip-vertical"></i>{" "}
                   <span>Portfolios</span>
                 </a>
-              </li>
+              </li> */}
 
               {/* <li>
                 <a className="scroll-to" href="#contact" onClick={removeActive}>
@@ -68,15 +67,15 @@ export default function Rsidemenu() {
                 </a>
               </li> */}
             </ul>
-            <nav>
+            {/* <nav>
               <Link style={{ color: "#28e98c" }} to="/ipl-stream">
                 <i class="las la-play-circle"></i>
                 IPL Live
               </Link>
-            </nav>
+            </nav> */}
           </div>
 
-          <div className="sidebar-social">
+          {/* <div className="sidebar-social">
             <p>Social</p>
             <ul className="social-links d-flex align-items-center">
               <li>
@@ -108,7 +107,7 @@ export default function Rsidemenu() {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
