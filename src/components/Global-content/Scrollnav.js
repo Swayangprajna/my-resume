@@ -28,11 +28,11 @@ export default function Scrollnav() {
           <span>Skills</span> <i className="las la-shapes"></i>
         </a>
       </li>
-      <li>
+      {/* <li>
         <a className="scroll-to" href="#portfolio">
           <span>Portfolios</span> <i className="las la-grip-vertical"></i>
         </a>
-      </li>
+      </li> */}
       {/* <li>
             <a className="scroll-to" href="#testimonial">
                 <span>Testimonial</span> <i className="lar la-comment"></i>
