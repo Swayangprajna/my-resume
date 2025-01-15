@@ -5,7 +5,7 @@ const DownloadResume = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
-  const fileUrl = "docs/SWAYANGPRAJNA_React_3yrs.pdf";
+  const fileUrl = "SWAYANGPRAJNA_React_3yrs.pdf";
 
   const handleDownload = () => {
     const link = document.createElement("a");
