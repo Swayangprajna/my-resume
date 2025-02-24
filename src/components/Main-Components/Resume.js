@@ -22,7 +22,7 @@ export default function Resume() {
           <div className="resume-timeline">
             <div className="item scroll-animation" data-aos="fade-right">
               <span className="date">February 2023 – Present</span>
-              <h2 className="valtra">VMO2</h2>
+              <h2 className="valtra">ONE Cognizant</h2>
               <p>ReactJS web application </p>
             </div>
 
